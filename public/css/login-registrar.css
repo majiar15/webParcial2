@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+a{
+    text-decoration: none;
+    text-align: none;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container h1{
+    text-align: center;
+    margin: 20px;
+}
+.container .formulario{
+    display: flex;
+    justify-content: center;
+}
+.container .formulario form label{
+    
+    font-size: 20px;
+}
+
+.container .formulario form input[type="email"],[type="password"],[type="text"]{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 400px;
+    height: 38px;
+    border: 1px solid #e9e9e9;
+}
+input[type="email"]:focus,[type="password"]:focus,[type="text"]:focus{
+    outline: none; 
+    
+    
+}
+.container .formulario form button{
+    width: 200px;
+    height: 40px;
+    background: #FD6E4F;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container .formulario form a{
+    color: #FD6E4F;
+    text-decoration: none;
+}

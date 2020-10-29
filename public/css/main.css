@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #f1f1f1
+    background: #F5F5F5
 }
 
 
@@ -37,20 +37,3 @@ header>ul {
 
 /* card */
 
-.products {
-    margin: 0px auto;
-    margin-top: 20px;
-    width: 80%;
-    min-height: 500px;
-    background: #ffff;
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-.card {
-    display: flex;
-    width: 20%;
-    padding: 10px;
-    justify-content: center;
-}

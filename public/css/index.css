@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+/*ard*/
+img{
+    width: 200px;
+    height: 300px;
+}
+.products {
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 80%;
+    min-height: 500px;
+    background: #ffff;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card {
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px #999999;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+
+} 
+.card-header{
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    
+}
+.card-body{
+    display: block;
+    margin: auto;
+}
+.card-body .price{
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+/*Filtro*/
+
+
+/*Footer*/
+
+footer .center{
+    
+}
