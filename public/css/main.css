@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    ;
+}
+
+body {
+    background: #f1f1f1
+}
+
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+header>ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+}
+
+
+/* banner */
+
+.banner>img {
+    width: 100%;
+}
+
+
+/* card */
+
+.products {
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 80%;
+    min-height: 500px;
+    background: #ffff;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    justify-content: center;
+}
