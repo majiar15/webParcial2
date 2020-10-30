@@ -39,6 +39,9 @@ header>ul {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+li>a:hover {
+    color: #FD6E4F;
+}
 
 /* banner */
 

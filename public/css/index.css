@@ -11,9 +11,7 @@ li {
     cursor: pointer;
 }
 
-li>a:hover {
-    color: #FD6E4F;
-}
+
 
 img {
     width: 200px;

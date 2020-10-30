@@ -37,6 +37,11 @@ li {
     text-align: center;
     margin: 3px;
 }
+.container aside .lateralBody Ul li:hover{
+    cursor: pointer;
+    background: #FD6E4F;
+    
+}
 
 .container aside .headerBarra {
     background: #161617;
@@ -54,5 +59,6 @@ li {
 }
 
 .container aside .lateralBody ul li {
-    margin-top: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
