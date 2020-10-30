@@ -74,6 +74,7 @@ main {
 .btn-Cerrar-sesion a {
     width: 150px;
     text-align: center;
+    line-height: 35px;
     height: 40px;
     background: #FD6E4F;
     border: none;
