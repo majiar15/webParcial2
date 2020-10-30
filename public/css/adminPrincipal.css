@@ -7,6 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /*Card*/
 
 main {
@@ -16,13 +17,13 @@ main {
 .containerCard {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 100px;
     padding: 10px;
     box-shadow: 0px 0px 20px #C9C9C9;
     margin: 20px;
@@ -36,12 +37,19 @@ main {
     font-size: 20px;
     text-align: center;
     margin: 5px;
-    
 }
-.card-header .title{
+
+.card-header .title {
     margin-top: 5px;
     font-weight: bold;
 }
+
+.fa-hand-holding-usd,
+.fa-users {
+    font-size: 50px;
+    color: #FD6E4F;
+}
+
 .card-body .valorMes {
     text-align: center;
     font-size: 20px;
@@ -49,17 +57,21 @@ main {
     margin-top: 15px;
 }
 
-.grafica img {
-    width: 800px;
+#containerChart {
+    margin: 0px auto;
 }
+
+
 /*Boton cerrar sesion*/
+
 .btn-Cerrar-sesion {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 30px;
     margin-right: 70px;
 }
-.btn-Cerrar-sesion input[type="button"]{
+
+.btn-Cerrar-sesion input[type="button"] {
     width: 150px;
     text-align: center;
     height: 40px;
@@ -71,12 +83,15 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
 /* iconos*/
-ul li i{
+
+ul li i {
     text-align: end;
 }
 
-h4 i{
+h4 i {
     font-size: 25px;
     margin-right: 10px;
 }
