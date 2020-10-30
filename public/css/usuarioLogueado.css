@@ -1,0 +1,21 @@
+#miCuenta {
+    position: relative;
+    cursor: pointer;
+}
+
+#miCuenta:hover>#subMenuCuenta {
+    display: block;
+}
+
+#subMenuCuenta {
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    position: absolute;
+}
+
+#subMenuCuenta li a {
+    color: #ffffff;
+    display: block;
+    margin: 15px 10px 15px 10px;
+}
