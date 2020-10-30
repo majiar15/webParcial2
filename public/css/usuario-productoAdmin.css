@@ -1,20 +1,23 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-main{
+main {
     width: 80%;
 }
-main .title{
+
+main .title {
     text-align: center;
     margin: 20px;
     font-size: 22px;
 }
-.buscador{
+
+.buscador {
     margin: 30px;
 }
-.buscador input[type="text"]{
+
+.buscador input[type="text"] {
     margin-bottom: 10px;
     margin-top: 10px;
     width: 200px;
@@ -24,24 +27,50 @@ main .title{
     padding: 8px;
 }
 
-table{
+table {
     margin-top: 50px;
     width: 95%;
     text-align: center;
     border-collapse: collapse;
 }
-table th, td{
+
+table th,
+td {
     padding: 5px;
 }
 
-table tr th{
-    background:   #FD6E4F;
-}
-table td{
+table tr th {
+    background: #FD6E4F;
     border: 2px solid #000000;
-    
 }
-.containerTabla{
+
+table td {
+    border: 2px solid #000000;
+}
+
+.containerTabla {
     display: flex;
     justify-content: center;
+}
+
+
+/*Boton cerrar sesion*/
+
+.btn-Cerrar-sesion {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+.btn-Cerrar-sesion a {
+    width: 150px;
+    height: 40px;
+    background: #FD6E4F;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

@@ -1,40 +1,72 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-main{
+
+main {
     width: 80%;
 }
-main .title{
+
+main .title {
     text-align: center;
     margin: 20px;
     font-size: 22px;
 }
-main .container-2{
+
+main .container-2 {
     display: flex;
     align-content: flex-start;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.container-2 .usuario{
+
+.container-2 .usuario {
     margin: 10px;
 }
-.container-2 .usuario h3{
+
+.container-2 .usuario h3 {
     margin: 15px;
     text-align: center;
 }
-table{
+
+table {
     text-align: center;
     border-collapse: collapse;
 }
-table th, td{
+
+table th,
+td {
     padding: 5px;
 }
 
-table tr th{
-    background:   #FD6E4F;
-}
-table td{
+table tr th {
+    background: #FD6E4F;
     border: 2px solid #000000;
-    
+}
+
+table td {
+    border: 2px solid #000000;
+}
+
+
+/*Boton cerrar sesion*/
+
+.btn-Cerrar-sesion {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+.btn-Cerrar-sesion a {
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    background: #FD6E4F;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
