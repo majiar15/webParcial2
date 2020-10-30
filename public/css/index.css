@@ -8,8 +8,10 @@
 
 li {
     list-style: none;
+
     cursor: pointer;
 }
+
 
 
 
@@ -96,17 +98,45 @@ aside ul li ul li input[type="button"]:hover {
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
+    font-family: sans-serif;
 }
 
 .card {
-    display: flex;
-    width: 20%;
-    padding: 10px;
-    flex-direction: column;
-    box-shadow: 0px 0px 15px #EBEBEB;
-    margin: 20px;
+    padding: 20px;
+    width: 25%;
+    border: 1px solid #EBEBEB;
+    margin: 10px;
     margin-top: 40px;
     border-radius: 10px;
+}
+
+.imageContainer img {
+    object-fit: contain;
+}
+
+.btn-comprar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #FD6E4F;
+    border-radius: 10px;
+    display: none;
+    animation-duration: 500ms !important;
+}
+
+.card:hover .title,
+.card:hover .estrellas {
+    display: none;
+}
+
+.card:hover .btn-comprar {
+    display: block;
+    text-align: center;
+    transition: 300ms all;
+}
+
+.card:hover .price {
+    font-size: 20px;
 }
 
 .card .card-body .estrellas {
@@ -122,6 +152,7 @@ aside ul li ul li input[type="button"]:hover {
 .card-body {
     display: block;
     margin: auto;
+    position: relative;
 }
 
 .card-body .price {
