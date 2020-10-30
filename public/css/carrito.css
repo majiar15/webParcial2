@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+}
+
+#section-carrito {
+    width: 100%;
+    min-height: 400px;
+    margin-top: 50px;
+    display: flex;
+    background: #fff;
+}
+
+table {
+    width: 900px;
+    margin: 0px auto;
+}
+
+td {
+    padding: 20px;
+}
+
+.imageContainer img {
+    width: 80px;
+    object-fit: cover;
+}
+
+.slice {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+}
+
+.mas,
+.menos {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.mas:hover,
+.menos:hover,
+.remove:hover {
+    color: #FD6E4F;
+}
+
+.remove {
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    padding: 7px;
+}
