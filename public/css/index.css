@@ -1,17 +1,25 @@
 * {
     margin: 0px;
     padding: 0px;
-    
 }
+
+
 /*ard*/
 
 li {
     list-style: none;
+    cursor: pointer;
 }
-img{
+
+li>a:hover {
+    color: #FD6E4F;
+}
+
+img {
     width: 200px;
     height: 300px;
 }
+
 .products {
     margin: 0px auto;
     margin-top: 20px;
@@ -20,7 +28,8 @@ img{
     background: #ffff;
     display: flex;
 }
-.products .container-2{
+
+.products .container-2 {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -29,53 +38,62 @@ img{
 
 
 /*Aside*/
-.Linea{
+
+.Linea {
     width: 100%;
     height: 3px;
-    background:#FD6E4F;
+    background: #FD6E4F;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.products aside{
+.products aside {
     width: 20%;
     margin: 30px;
 }
-aside h3{
+
+aside h3 {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 25px;
 }
-aside ul li{
+
+aside ul li {
     margin-top: 5px;
 }
-aside ul li ul li{
+
+aside ul li ul li {
     margin-left: 15px;
     padding: 4px;
 }
-aside ul li ul li:hover{
+
+aside ul li ul li:hover {
     cursor: pointer;
-    color:  #FD6E4F;
+    color: #FD6E4F;
 }
-aside ul li ul li input[type="number"]{
+
+aside ul li ul li input[type="number"] {
     width: 60px;
     height: 25px;
     border: 1px solid #A8A8A8;
 }
-aside ul li ul li input[type="button"]{
+
+aside ul li ul li input[type="button"] {
     width: 50px;
     height: 25px;
     background: #FD6E4F;
     border: none;
     color: white;
 }
-aside ul li ul li input[type="button"]:hover{
+
+aside ul li ul li input[type="button"]:hover {
     cursor: pointer;
 }
 
 
 /*Card*/
-.title{
+
+.title {
     text-align: center;
     padding: 10px;
     font-size: 20px;
@@ -92,29 +110,26 @@ aside ul li ul li input[type="button"]:hover{
     margin: 20px;
     margin-top: 40px;
     border-radius: 10px;
+}
 
-} 
-
-.card .card-body .estrellas{
+.card .card-body .estrellas {
     text-align: center;
 }
-.card-header{
+
+.card-header {
     font-size: 20px;
     text-align: center;
     margin: 5px;
-    
 }
-.card-body{
+
+.card-body {
     display: block;
     margin: auto;
 }
-.card-body .price{
+
+.card-body .price {
     text-align: center;
     font-size: 15px;
     margin: 5px;
     font-weight: bold;
 }
-
-
-
-
