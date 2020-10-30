@@ -29,13 +29,7 @@ img{
 
 
 /*Aside*/
-.Linea{
-    width: 100%;
-    height: 3px;
-    background:#FD6E4F;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+
 
 .products aside{
     width: 20%;
@@ -80,7 +74,7 @@ aside ul li ul li input[type="button"]:hover{
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
-    font-family: sans-serif;
+    
 }
 
 .card {
