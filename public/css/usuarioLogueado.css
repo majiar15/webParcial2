@@ -12,6 +12,7 @@
     background: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     position: absolute;
+    animation-duration: 300ms;
 }
 
 #subMenuCuenta li a {
