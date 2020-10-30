@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    width: 80%;
+}
+main .title{
+    text-align: center;
+    margin: 20px;
+    font-size: 22px;
+}
+.buscador{
+    margin: 30px;
+}
+.buscador input[type="text"]{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #BFBFBF;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+table{
+    margin-top: 50px;
+    width: 95%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table th, td{
+    padding: 5px;
+}
+
+table tr th{
+    background:   #FD6E4F;
+}
+table td{
+    border: 2px solid #000000;
+    
+}
+.containerTabla{
+    display: flex;
+    justify-content: center;
+}
