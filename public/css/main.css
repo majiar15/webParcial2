@@ -32,7 +32,13 @@ header>ul {
     font-family: 'Poppins', sans-serif;
     padding: 40px;
 }
-
+.Linea{
+    width: 100%;
+    height: 3px;
+    background:#FD6E4F;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /* banner */
 
