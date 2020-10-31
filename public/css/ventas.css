@@ -6,29 +6,26 @@
 
 /*ard*/
 
-
-
-
-
-
-img {
+.card img {
     width: 200px;
     height: 300px;
 }
-.bodyVentas{
+
+.bodyVentas {
     margin: 0px auto;
     margin-top: 20px;
     width: 80%;
     min-height: 500px;
     background: #ffff;
 }
-.bodyVentas h1{
+
+.bodyVentas h1 {
     text-align: center;
     padding: 40px;
     font-size: 40px;
 }
+
 .products {
-    
     display: flex;
 }
 
@@ -167,15 +164,4 @@ aside ul li ul li input[type="button"]:hover {
 }
 
 
-
-
-
-
-
-
-
-
 /*Ventas*/
-
-
-
