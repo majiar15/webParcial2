@@ -11,6 +11,10 @@ a{
     text-decoration: none;
     color: black;
 }
+li {
+    list-style: none;
+    cursor: pointer;
+}
 body {
     font-family:  'Poppins', sans-serif;
 }
@@ -25,7 +29,7 @@ header {
 }
 
 header>ul {
-    width: 40%;
+    width: 45%;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -86,3 +90,19 @@ footer{
     font-size: 20px;
 }
 
+/*Carrito*/
+.fa-shopping-bag{
+    font-size: 25px;
+    color: #4C4C4C;
+}
+.fa-search{
+    font-size: 25px;
+    color: #4C4C4C;
+}
+
+/*Buscador*/
+header ul li input[type="text"]{
+    border: none;
+    height: 25px;
+    width: 50px;
+}

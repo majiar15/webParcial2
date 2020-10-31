@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    margin: 0px auto;
+    width: 80%;
+    background: #ffff;
+    min-height: 455px;
+    border-radius: 10px;
+}
+main h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+}
+main .perfil{
+    margin: 0px auto;
+    width: 80%;
+}
+main .perfil h3{
+    font-size: 25px;
+}
+main .perfil form{
+    margin-top: 15px;
+}
+main .perfil form .formulario{
+    margin-bottom: 15px;
+    height: 40px;
+
+    font-size: 20px;
+}
+main .perfil form label{
+    display: inline-block;
+    width: 100px;
+}
+main .perfil input[type="text"],[type="number"]{
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ABABAB; 
+    outline: none;
+}
+main .perfil button{
+    width: 100px;
+    height: 30px;
+    background: #FD6E4F;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}

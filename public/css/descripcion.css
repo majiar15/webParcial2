@@ -89,3 +89,21 @@ main{
 .comentarios .coment{
     margin-bottom: 10px;
 }
+
+
+
+/*Boton*/
+button{
+    width: 150px;
+    height: 40px;
+    background: #FD6E4F;
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 20px;
+    
+}
+button:hover{
+    background: #DF6449;
+    cursor: pointer;
+}

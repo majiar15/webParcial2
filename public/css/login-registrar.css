@@ -50,6 +50,10 @@ input[type="email"]:focus,[type="password"]:focus,[type="text"]:focus{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.container .formulario form button:hover{
+    background: #DF6449;
+    cursor: pointer;
+}
 .container .formulario form a{
     color: #FD6E4F;
     text-decoration: none;

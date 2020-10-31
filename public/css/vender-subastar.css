@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    margin: 0px auto;
+    width: 80%;
+    background: #ffff;
+    min-height: 455px;
+    border-radius: 10px;
+}
+main h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+}
+main .perfil{
+    margin: 0px auto;
+    width: 80%;
+}
+main .perfil h3{
+    font-size: 25px;
+}
+main .perfil form{
+    margin-top: 15px;
+}
+main .perfil form .formulario{
+    margin-bottom: 15px;
+    height: 40px;
+
+    font-size: 20px;
+}
+main .perfil form label{
+    display: inline-block;
+    width: 125px;
+}
+main .perfil input[type="text"],[type="number"],textarea{
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ABABAB; 
+    outline: none;
+}
+main .perfil button{
+    width: 150px;
+    height: 40px;
+    background: #FD6E4F;
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+main .perfil button:hover{
+    background: #DF6449;
+    cursor: pointer;
+}
+textarea {
+    resize: none;
+    padding: 5px;
+}
+.botones{
+    margin-top: 50px;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}

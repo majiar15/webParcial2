@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>subastas.com</title>
     <link rel="stylesheet" href="./public/css/main.css">
-    <link rel="stylesheet" href="./public/css/perfilUsuario.css">
+    <link rel="stylesheet" href="./public/css/vender-subastar.css">
     <link rel="stylesheet" href="./public/css/usuarioLogueado.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -32,44 +35,48 @@
                     <li><a href="./PerfilUsuario.html">mi perfil</a></li>
                     <li><a href="./misCompras.html">mis compras</a></li>
                     <li><a href="./Pujas.html">mis pujas</a></li>
-                    <li><a href="./vender-subastar.html">vender/subastar</a></li>
+                    <li><a href="#">vender/subastar</a></li>
                     <li><a href="/index.html">cerrar sesion</a></li>
                 </ul>
             </li>
         </ul>
 
     </header>
-
     <main>
-        <h1>Perfil</h1>
+        <h1>Producto</h1>
         <div class="perfil">
-            <h3>Daniel salinas</h3>
+            <h3>Agregar Producto</h3>
             <form action="#">
                 <div class="formulario">
-                    <label for="nombre">Nombre:</label>
+                    <label for="nombre">Marca:</label>
                     <input type="text" name="nombre" id="nombre"><br>
                 </div>
                 <div class="formulario">
-                    <label for="apellidos">Apellidos:</label>
+                    <label for="modelo">Modelo:</label>
                     <input type="text" name="apellido" id="apellido"><br>
                 </div>
                 <div class="formulario">
-                    <label for="cc">Cedula:</label>
-                <input type="number" name="cc" id="cc"><br>
+                    <label for="cc">Precio:</label>
+                    <input type="number" name="cc" id="cc"><br>
+                </div>
+
+                <div class="formulario">
+                    <label for="pais">Stock:</label>
+                    <input type="number" name="pais" id="pais"><br>
                 </div>
                 <div class="formulario">
-                    <label for="direccion">Direccion:</label>
-                <input type="text" name="direccion" id="direccion"><br>
+                    <label for="Imagen">Imagen</label>
+                    <input type="file" name="imagen" id="imagen">
                 </div>
                 <div class="formulario">
-                    <label for="pais">Pais:</label>
-                <input type="text" name="pais" id="pais"><br>
+                    <label for="ciudad">Descripcion:</label>
+                    <textarea name="descripcion" id="descripcion" cols="41" rows="2"></textarea>
                 </div>
-                <div class="formulario">
-                    <label for="ciudad">Ciudad:</label>
-                <input type="text" name="ciudad" id="ciudad"><br>
+                <div class="botones">
+                    <button>vender</button> <button>Subastar</button>
                 </div>
-                <button>Editar</button>
+                
+                
             </form>
         </div>
 
@@ -82,7 +89,10 @@
             <div class="sobreNosotros">
                 <h3>Sobre Nosotros</h3>
                 <p>Somos la empresa #1 en venta y subastas electronica y queremos seguir creciendo </p>
-                <p> copyright &copy; todos los derechos reservado</p>
+                <p> copyright &copy; todos los derechos reservado</p><br>
+                <p>Desarrollado por:</p>
+                <p>Daniel Salinas</p>
+                <p>Martin Jimenez</p>
             </div>
             <div class="center">
                 <i class="fab fa-facebook-f"></i>
@@ -100,6 +110,8 @@
         </div>
 
     </footer>
+    <script>
+    </script>
 </body>
 
 </html>

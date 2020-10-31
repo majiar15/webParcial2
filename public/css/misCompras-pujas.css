@@ -1,0 +1,76 @@
+main{
+    margin: 0px auto;
+    width: 80%;
+    background: #ffffff;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img {
+    width: 200px;
+    height: 300px;
+}
+main h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+}
+.title {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}.card {
+    padding: 20px;
+    width: 25%;
+    border: 1px solid #EBEBEB;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.imageContainer img {
+    object-fit: contain;
+}
+
+/*Card*/
+
+.card .card-body .estrellas {
+    text-align: center;
+}
+
+.card-header {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.card-body {
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.card-body .price {
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+
+/*linea comprado*/
+
+.comprado{
+    height: 40px;
+    width: 100%;
+    background: rgba(253,110,70,0.8);
+    position: relative;
+    top: 180px;
+    color: white;
+    font-size: 20px;
+}
