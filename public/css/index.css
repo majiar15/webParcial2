@@ -160,3 +160,37 @@ aside ul li ul li input[type="button"]:hover {
 .products h1 {
     text-align: center;
 }
+@media screen and (max-width:1284px){
+    .imageContainer img{
+        width: 100%;
+    } 
+}
+
+
+@media screen and (max-width:1230px){
+
+    .products{
+        flex-direction: column-reverse;
+    }
+    .imageContainer img{
+        width: 100%;
+        height: 100%;
+    }
+    .products aside{
+        width: 40%;
+    } 
+    
+    
+    .products .container-2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:770px ){
+    .products {
+        width: 100%;  
+    }
+    .products .container-2 {
+        width: 100%;
+    }
+}

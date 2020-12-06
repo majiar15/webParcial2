@@ -9,9 +9,9 @@ main{
     justify-content: center;
     flex-wrap: wrap;
 }
-img {
-    width: 200px;
-    height: 300px;
+.title img {
+    width: 300px;
+   
 }
 main h1{
     text-align: center;
@@ -34,7 +34,8 @@ main h1{
 }
 
 .imageContainer img {
-    object-fit: contain;
+    
+    width: 90%;
 }
 
 /*Card*/
@@ -73,4 +74,37 @@ main h1{
     top: 180px;
     color: white;
     font-size: 20px;
+}
+
+@media screen and (max-width:1120px){
+    .comprado{
+        top: 150px;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .imageContainer img{
+        width: 100%;
+        
+    }
+    .comprado{
+        top: 120px;
+    }
+}
+
+@media screen and (max-width:770px){
+    header{
+        display: none;
+    }
+    main{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:574px){
+    .comprado{
+        height: 30px;
+        font-size: 15px;
+        top: 100px;
+    }
 }

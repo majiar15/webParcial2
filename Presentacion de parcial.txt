@@ -1,0 +1,22 @@
+
+
+PARCIAL SEGUNDO CORTE
+Ingenieria web
+
+Integrantes:
+Martin Jose Jimenez Aragon
+Daniel Alfonso Salinas Salinas
+
+Presentado a:
+Edgar Morillo Vergel
+
+
+1) para ingresar al Dashboard
+ Usuario: admin@admin
+ pass: cualquier texto
+
+2) para loguiarse como usuario puede usar cualquier correo y cualquier contraseña
+
+3) usamos repositorio de github
+   https://github.com/majiar15/webParcial2.git
+	

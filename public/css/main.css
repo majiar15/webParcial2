@@ -47,6 +47,14 @@ li>a:hover {
     color: #FD6E4F;
 }
 
+/*Menu*/
+.menu_bar{
+    margin-right: 30px;
+    font-size: 25px;
+    color: #F5F5F5;
+    cursor: pointer;
+    display: none;
+}
 /* banner */
 
 .banner>img {
@@ -89,6 +97,9 @@ footer{
     margin-right: 5px;
     font-size: 20px;
 }
+.center h3{
+    display: none;
+}
 
 /*Carrito*/
 .fa-shopping-bag{
@@ -105,4 +116,87 @@ header ul li input[type="text"]{
     border: none;
     height: 25px;
     width: 50px;
+}
+
+
+
+@media screen and (max-width:1140px){
+ 
+     header>ul {
+        width: 70%;
+        
+    }
+    
+    
+ 
+}
+@media screen and (max-width:986px){
+    .title img{
+        width: 280px;
+    }
+    header>ul {
+        width: 70%;
+    }
+    
+} 
+@media screen and (max-width:953px){
+    
+    header img{
+        width: 220px;
+        padding-left: 25px;
+    }
+    header ul li a{
+        font-size: 16px ;
+    }
+
+    .container-footer .center{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .center i{
+        margin-bottom: 10px;
+    }
+    .center h3{
+        display: inline;
+        margin-top: 15px;
+    }
+    
+    .container-footer .contacto{
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (max-width:850) and (orientation : landscape){
+    header ul li{
+        margin: 5px 0 0 0;
+    }
+    header{
+        overflow: scroll;
+        height: calc(100% -65px);
+    }
+}
+@media screen and (max-width:770px ){
+    
+    .banner{
+        width: 100%;
+    }
+    
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:538px){
+    .container-footer .sobreNosotros {
+        width: 90%;
+    }
+    .container-footer .center{
+        width: 90%;
+    }
+    .container-footer .contacto{
+        width: 90%;
+    }
 }

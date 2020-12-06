@@ -58,3 +58,24 @@ input[type="email"]:focus,[type="password"]:focus,[type="text"]:focus{
     color: #FD6E4F;
     text-decoration: none;
 }
+
+@media screen and (max-width:770px){
+
+    
+    .container{
+        margin: auto;
+        
+    }
+    .container .formulario form input[type="email"],[type="password"],[type="text"]{
+        width: 300px;
+    }
+    .container .formulario form button{
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .container .formulario form input[type="email"],[type="password"],[type="text"]{
+        width: 250px;
+    }
+}

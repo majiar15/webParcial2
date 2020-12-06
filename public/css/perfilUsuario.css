@@ -50,3 +50,14 @@ main .perfil button{
     margin-top: 10px;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width:606px){
+    
+    form .formulario{
+        margin-top: 30px;
+
+    }
+    main .perfil input[type="text"],[type="number"]{
+        width: 90%;
+    }
+}

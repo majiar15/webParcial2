@@ -50,3 +50,26 @@ td {
     border: 1px solid #cccccc;
     padding: 7px;
 }
+
+
+@media screen and (max-width:1100px){
+    table{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width:524px){
+    .slice{
+        width: 90%;
+    }
+    td{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:458px){
+    .imageContainer img {
+        width: 90%;
+    }
+}
