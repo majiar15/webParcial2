@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <aside>
-            <div class="headerBarra">
+            <div id="headerBarra" class="headerBarra">
 
                 <h3><a href="./adminPrincipal.html"> Daniel Salinas</a></h3>
                 <p>Administrador</p>
