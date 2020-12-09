@@ -21,9 +21,9 @@
             <li>Categorias</li>
             <li>Subastas</li>
             <li>Ventas</li>
-            <li> <a href="./login.html">Login</a></li>
-            <li><a href="./Registrar.html">Registrar</a></li>
-            <li><a href="./carrito.html"><i class="fas fa-shopping-bag"></i></a></li>
+            <li> <a href="./login.php">Login</a></li>
+            <li><a href="./Registrar.php">Registrar</a></li>
+            <li><a href="./carrito.php"><i class="fas fa-shopping-bag"></i></a></li>
 
         </ul>
 

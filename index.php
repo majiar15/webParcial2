@@ -24,12 +24,12 @@
                 <div class="Linea"></div>
             </li>
             <li><a href="#">Categorias</a></li>
-            <li><a href="./subastas.html">Subastas</a></li>
-            <li><a href="./ventas.html">Ventas</a></li>
-            <li> <a href="./login.html">Login</a></li>
-            <li><a href="./Registrar.html">Registrar</a></li>
+            <li><a href="./subastas.php">Subastas</a></li>
+            <li><a href="./ventas.php">Ventas</a></li>
+            <li> <a href="./login.php">Login</a></li>
+            <li><a href="./Registrar.php">Registrar</a></li>
 
-            <li><a href="./carrito.html"><i class="fas fa-shopping-bag"></i></a></li>
+            <li><a href="./carrito.php"><i class="fas fa-shopping-bag"></i></a></li>
         </ul>
         <div class="menu_bar"><i class="fas fa-bars"></i></div>
 

@@ -18,7 +18,7 @@
         <div class="title"><img src="/public/assets/img/logo.PNG" alt=""></div>
         <ul>
             <li>
-                <a href="./usuarioLogueado.html">Inicio</a>
+                <a href="./usuarioLogueado.php">Inicio</a>
                 <div class="Linea"></div>
             </li>
             <li><a href="#">Categorias</a></li>
@@ -29,11 +29,11 @@
                 Mi cuenta
 
                 <ul id="subMenuCuenta" class="animate__animated animate__slideInRight">
-                    <li><a href="./PerfilUsuario.html">mi perfil</a></li>
-                    <li><a href="./misCompras.html">mis compras</a></li>
-                    <li><a href="./Pujas.html">mis pujas</a></li>
+                    <li><a href="./PerfilUsuario.php">mi perfil</a></li>
+                    <li><a href="./misCompras.php">mis compras</a></li>
+                    <li><a href="./Pujas.php">mis pujas</a></li>
                     <li><a href="#">vender/subastar</a></li>
-                    <li><a href="/index.html">cerrar sesion</a></li>
+                    <li><a href="/index.php">cerrar sesion</a></li>
                 </ul>
             </li>
         </ul>

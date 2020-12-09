@@ -16,12 +16,12 @@
     <header>
         <div class="title"><img src="/public/assets/img/logo.PNG" alt=""></div>
         <ul>
-            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./index.php">Inicio</a></li>
             <li><a href="#">Categorias</a></li>
-            <li><a href="./subastas.html">Subastas</a></li>
-            <li><a href="./ventas.html">Ventas</a></li>
-            <li> <a href="./login.html">Login</a></li>
-            <li><a href="./Registrar.html">Registrar</a></li>
+            <li><a href="./subastas.php">Subastas</a></li>
+            <li><a href="./ventas.php">Ventas</a></li>
+            <li> <a href="./login.php">Login</a></li>
+            <li><a href="./Registrar.php">Registrar</a></li>
         </ul>
 
     </header>

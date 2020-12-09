@@ -16,25 +16,25 @@
         <aside>
             <div id="headerBarra" class="headerBarra">
 
-                <h3><a href="./adminPrincipal.html"> Daniel Salinas</a></h3>
+                <h3><a href="./adminPrincipal.php"> Daniel Salinas</a></h3>
                 <p>Administrador</p>
             </div>
             <div class="lateralBody">
                 <div class="usuario">
                     <ul>
-                        <a href="./adminPrincipal.html"><li>Inicio</li> </a>
+                        <a href="./adminPrincipal.php"><li>Inicio</li> </a>
                     </ul>
                     <h4><i class="fas fa-user"></i> Usuarios</h4>
                     <ul>
-                        <a href="./usuarioAdmin.html"><li>Consultar usuario </li></a>
-                        <a href="./trazabilidadUsuario.html"><li>Trazabilidad</li></a>
+                        <a href="./usuarioAdmin.php"><li>Consultar usuario </li></a>
+                        <a href="./trazabilidadUsuario.php"><li>Trazabilidad</li></a>
                     </ul>
                 </div>
                 <div class="productos">
                     <h4><i class="fas fa-shopping-bag"></i> productos</h4>
                     <ul>
                         <a href="./productoAdmin.html"><li>Consultar producto</li> </a>
-                        <a href="./trazabilidadProducto.html"><li>Trazabilidad</li></a>
+                        <a href="./trazabilidadProducto.php"><li>Trazabilidad</li></a>
                     </ul>
                 </div>
             </div>

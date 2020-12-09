@@ -22,9 +22,9 @@
                 <div class="Linea"></div>
             </li>
             <li><a href="#">Categorias</a></li>
-            <li><a href="./subastas.html">Subastas</a></li>
-            <li><a href="./ventas.html">Ventas</a></li>
-            <li><a href="./carrito.html"><i class="fas fa-shopping-bag"></i></a></li>
+            <li><a href="./subastas.php">Subastas</a></li>
+            <li><a href="./ventas.php">Ventas</a></li>
+            <li><a href="./carrito.php"><i class="fas fa-shopping-bag"></i></a></li>
             <li id="miCuenta">
                 Mi cuenta
 

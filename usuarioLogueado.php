@@ -29,11 +29,11 @@
                 Mi cuenta
 
                 <ul id="subMenuCuenta" class="animate__animated animate__slideInRight">
-                    <li><a href="./PerfilUsuario.html">mi perfil</a></li>
-                    <li><a href="./misCompras.html">mis compras</a></li>
-                    <li><a href="./Pujas.html">mis pujas</a></li>
-                    <li><a href="./vender-subastar.html">vender/subastar</a></li>
-                    <li><a href="/index.html">cerrar sesion</a></li>
+                    <li><a href="./PerfilUsuario.´php">mi perfil</a></li>
+                    <li><a href="./misCompras.php">mis compras</a></li>
+                    <li><a href="./Pujas.php">mis pujas</a></li>
+                    <li><a href="./vender-subastar.php">vender/subastar</a></li>
+                    <li><a href="/index.php">cerrar sesion</a></li>
                 </ul>
             </li>
         </ul>
