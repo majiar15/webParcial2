@@ -33,7 +33,7 @@
                     <li><a href="./misCompras.php">mis compras</a></li>
                     <li><a href="./Pujas.php">mis pujas</a></li>
                     <li><a href="./vender-subastar.php">vender/subastar</a></li>
-                    <li><a href="/index.php">cerrar sesion</a></li>
+                    <li><a href="./index.php">cerrar sesion</a></li>
                 </ul>
             </li>
         </ul>
