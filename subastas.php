@@ -18,7 +18,7 @@
         <ul>
             <li><a href="./usuarioLogueado.php">Inicio</a></li>
             <li><a href="#">Categorias</a></li>
-            <li><a href="./subastas.html">
+            <li><a href="./subastas.php">
                 Subastas</a>
                 <div class="Linea"></div>
             </li>

@@ -18,13 +18,13 @@
         <div class="title"><img src="/public/assets/img/logo.PNG" alt=""></div>
         <ul>
             <li>
-                <a href="./usuarioLogueado.html">Inicio</a>
+                <a href="./usuarioLogueado.php">Inicio</a>
                 <div class="Linea"></div>
             </li>
             <li><a href="#">Categorias</a></li>
-            <li><a href="#">Subastas</a></li>
-            <li><a href="#">Ventas</a></li>
-            <li><a href="./carrito.html"><i class="fas fa-shopping-bag"></i></a></li>
+            <li><a href="./subastas.php">Subastas</a></li>
+            <li><a href="./ventas.php">Ventas</a></li>
+            <li><a href="./carrito.php"><i class="fas fa-shopping-bag"></i></a></li>
             <li id="miCuenta">
                 Mi cuenta
 

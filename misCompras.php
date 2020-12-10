@@ -18,7 +18,7 @@
         <div class="title"><img src="/public/assets/img/logo.PNG" alt=""></div>
         <ul>
             <li>
-                <a href="./usuarioLogueado.html">Inicio</a>
+                <a href="./usuarioLogueado.php">Inicio</a>
                 <div class="Linea"></div>
             </li>
             <li><a href="#">Categorias</a></li>

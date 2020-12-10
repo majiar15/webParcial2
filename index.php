@@ -20,7 +20,7 @@
         
         <ul class="menu_items">
             <li>
-                <a href="./index.html">Inicio</a>
+                <a href="./index.php">Inicio</a>
                 <div class="Linea"></div>
             </li>
             <li><a href="#">Categorias</a></li>

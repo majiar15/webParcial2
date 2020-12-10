@@ -16,7 +16,7 @@
         <div class="title"><img src="/public/assets/img/logo.PNG" alt=""></div>
         <ul>
             <li>
-                <a href="./index.html">Inicio</a>
+                <a href="./index.php">Inicio</a>
             </li>
             <li>Categorias</li>
             <li>Subastas</li>

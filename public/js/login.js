@@ -5,9 +5,9 @@ const email = document.querySelector('#email');
 form.addEventListener('click', () => {
     if (email.value === 'admin@admin') {
         console.log('khaa');
-        window.location.replace('/adminPrincipal.html');
+        window.location.replace('./adminPrincipal.php');
     } else {
-        window.location.replace('/usuarioLogueado.html');
+        window.location.replace('./usuarioLogueado.php');
     }
 });
 

@@ -22,9 +22,9 @@
                 <div class="Linea"></div>
             </li>
             <li><a href="#">Categorias</a></li>
-            <li><a href="#">Subastas</a></li>
-            <li><a href="#">Ventas</a></li>
-            <li><a href="./carrito.html"><i class="fas fa-shopping-bag"></i></a></li>
+            <li><a href="./subastas.php">Subastas</a></li>
+            <li><a href="./ventas.php">Ventas</a></li>
+            <li><a href="./carrito.php"><i class="fas fa-shopping-bag"></i></a></li>
             <li id="miCuenta">
                 Mi cuenta
 
@@ -32,7 +32,7 @@
                     <li><a href="./PerfilUsuario.php">mi perfil</a></li>
                     <li><a href="./misCompras.php">mis compras</a></li>
                     <li><a href="./Pujas.php">mis pujas</a></li>
-                    <li><a href="#">vender/subastar</a></li>
+                    <li><a href="./vender-subastar.php">vender/subastar</a></li>
                     <li><a href="/index.php">cerrar sesion</a></li>
                 </ul>
             </li>

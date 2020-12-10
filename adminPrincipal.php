@@ -33,7 +33,7 @@
                 <div class="productos">
                     <h4><i class="fas fa-shopping-bag"></i> productos</h4>
                     <ul>
-                        <a href="./productoAdmin.html"><li>Consultar producto</li> </a>
+                        <a href="./productoAdmin.php"><li>Consultar producto</li> </a>
                         <a href="./trazabilidadProducto.php"><li>Trazabilidad</li></a>
                     </ul>
                 </div>

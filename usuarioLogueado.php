@@ -18,22 +18,22 @@
         <div class="title"><img src="/public/assets/img/logo.PNG" alt=""></div>
         <ul>
             <li>
-                <a href="./usuarioLogueado.html">Inicio</a>
+                <a href="./usuarioLogueado.php">Inicio</a>
                 <div class="Linea"></div>
             </li>
             <li><a href="#">Categorias</a></li>
-            <li><a href="./subastas.html">Subastas</a></li>
-            <li><a href="./ventas.html">Ventas</a></li>
-            <li><a href="./carrito.html"><i class="fas fa-shopping-bag"></i></a></li>
+            <li><a href="./subastas.php">Subastas</a></li>
+            <li><a href="./ventas.php">Ventas</a></li>
+            <li><a href="./carrito.php"><i class="fas fa-shopping-bag"></i></a></li>
             <li id="miCuenta">
                 Mi cuenta
 
                 <ul id="subMenuCuenta" class="animate__animated animate__slideInRight">
-                    <li><a href="./PerfilUsuario.´php">mi perfil</a></li>
+                    <li><a href="./PerfilUsuario.php">mi perfil</a></li>
                     <li><a href="./misCompras.php">mis compras</a></li>
                     <li><a href="./Pujas.php">mis pujas</a></li>
                     <li><a href="./vender-subastar.php">vender/subastar</a></li>
-                    <li><a href="/index.php">cerrar sesion</a></li>
+                    <li><a href="./index.php">cerrar sesion</a></li>
                 </ul>
             </li>
         </ul>

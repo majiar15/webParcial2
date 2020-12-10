@@ -20,7 +20,7 @@
             <li><a href="#">Categorias</a></li>
             <li><a href="./subastas.php">Subastas</a></li>
             <li>
-                <a href=".ventas">Ventas</a>
+                <a href="./ventas.php">Ventas</a>
                 <div class="Linea"></div>
             </li>
             <li> <a href="./login.php">Login</a></li>
